@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_7E67A42E27F34CF08A6E95230392A1AE"
+        "MsmKey" = "8:_7FCCE181D2B041F38B8BFEE2A9E5189F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,10 +106,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7E67A42E27F34CF08A6E95230392A1AE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7FCCE181D2B041F38B8BFEE2A9E5189F"
             {
-            "SourcePath" = "8:..\\..\\rickroll\\Debug\\Winosntkrnl.exe"
-            "TargetName" = "8:Winosntkrnl.exe"
+            "SourcePath" = "8:..\\..\\..\\..\\..\\..\\..\\source\\repos\\rickroll\\Debug\\winosntkrnl.exe"
+            "TargetName" = "8:winosntkrnl.exe"
             "Tag" = "8:"
             "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Condition" = "8:"
@@ -204,15 +204,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows Power Tools"
-        "ProductCode" = "8:{2A44C583-ED4B-4C40-A72E-CFB6D9D511F2}"
-        "PackageCode" = "8:{FF0DA1DE-E761-438B-A862-CEEE4BDA0447}"
+        "ProductCode" = "8:{7327C234-EE41-4419-939A-783F44A28F83}"
+        "PackageCode" = "8:{B066EFDA-0561-411D-A387-D62CFD676DCD}"
         "UpgradeCode" = "8:{040442E7-479B-4C78-8074-7CA5D3764011}"
         "AspNetVersion" = "8:1.1.4322.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.5.2"
+        "ProductVersion" = "8:0.5.3"
         "Manufacturer" = "8:Microsoft"
         "ARPHELPTELEPHONE" = "8:1-800-936-4900"
         "ARPHELPLINK" = "8:https://www.support.microsoft.com"
@@ -490,6 +490,14 @@
                                                                     "ValueTypes" = "3:3"
                                                                     "Value" = "3:1"
                                                                     }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_437004728215408C8FB4725EE98A9A8B"
+                                                                    {
+                                                                    "Name" = "8:DisableRegistryTools"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:1"
+                                                                    }
                                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_F42309F8BAD94F72AFE4EA2FEAD2935E"
                                                                     {
                                                                     "Name" = "8:EnableLUA"
@@ -509,6 +517,28 @@
                                                             "Transitive" = "11:FALSE"
                                                                 "Keys"
                                                                 {
+                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_B84321F2AC54496A88316BA23A94B97C"
+                                                                    {
+                                                                    "Name" = "8:DisallowRun"
+                                                                    "Condition" = "8:"
+                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                    "Transitive" = "11:FALSE"
+                                                                        "Keys"
+                                                                        {
+                                                                        }
+                                                                        "Values"
+                                                                        {
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_E147CE3575E84D60864C69F61F563DA5"
+                                                                            {
+                                                                            "Name" = "8:1"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:Explorer.exe"
+                                                                            }
+                                                                        }
+                                                                    }
                                                                 }
                                                                 "Values"
                                                                 {
@@ -519,6 +549,22 @@
                                                                     "Transitive" = "11:FALSE"
                                                                     "ValueTypes" = "3:3"
                                                                     "Value" = "3:1"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_D18D8BA5019F410EA3947EC53835814B"
+                                                                    {
+                                                                    "Name" = "8:NoRun"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:1"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_D61FEE9EDBB64C6EA7C3085ED8A21F3F"
+                                                                    {
+                                                                    "Name" = "8:NoViewOnDrive"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:67108863"
                                                                     }
                                                                 }
                                                             }
@@ -686,6 +732,14 @@
                                                                     "ValueTypes" = "3:3"
                                                                     "Value" = "3:1"
                                                                     }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_A853C07F9D2649B595B6DB3058514FAD"
+                                                                    {
+                                                                    "Name" = "8:DisableRegistryTools"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:1"
+                                                                    }
                                                                 }
                                                             }
                                                             "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_5CFE9249EBAF4C789CC3FDA45358DCA2"
@@ -697,12 +751,50 @@
                                                             "Transitive" = "11:FALSE"
                                                                 "Keys"
                                                                 {
+                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_A1C66E86512C481AA2D6BE0C28BE0BCF"
+                                                                    {
+                                                                    "Name" = "8:DisallowRun"
+                                                                    "Condition" = "8:"
+                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                    "Transitive" = "11:FALSE"
+                                                                        "Keys"
+                                                                        {
+                                                                        }
+                                                                        "Values"
+                                                                        {
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_8F7BFE36E30043B4BA29AC6BAA385ED2"
+                                                                            {
+                                                                            "Name" = "8:1"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:Explorer.exe"
+                                                                            }
+                                                                        }
+                                                                    }
                                                                 }
                                                                 "Values"
                                                                 {
                                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_4D12E7B360B341BEA34D417A1705C4E2"
                                                                     {
                                                                     "Name" = "8:NoControlPanel"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:1"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_F20D1B3AB6894F4DB16A31B90F72DA68"
+                                                                    {
+                                                                    "Name" = "8:NoViewOnDrive"
+                                                                    "Condition" = "8:"
+                                                                    "Transitive" = "11:FALSE"
+                                                                    "ValueTypes" = "3:3"
+                                                                    "Value" = "3:67108863"
+                                                                    }
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_F267B37AA88D470C9BEF428052035E4A"
+                                                                    {
+                                                                    "Name" = "8:NoRun"
                                                                     "Condition" = "8:"
                                                                     "Transitive" = "11:FALSE"
                                                                     "ValueTypes" = "3:3"
@@ -761,17 +853,17 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2E64F450F59D4960A4E70F358B4C6C89"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FC0860C216D046C7931F94C206AB7AAE"
             {
-            "Name" = "8:Winosntkrnl.exe"
+            "Name" = "8:winosntkrnl"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_7E67A42E27F34CF08A6E95230392A1AE"
+            "Target" = "8:_7FCCE181D2B041F38B8BFEE2A9E5189F"
             "Folder" = "8:_1C5B9B95B3944C4E9901BFC5FAD6BAB3"
-            "WorkingFolder" = "8:_1BD4D3DA977149F69083F7312CBED0E7"
+            "WorkingFolder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Icon" = "8:"
             "Feature" = "8:"
             }
