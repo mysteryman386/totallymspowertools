@@ -17,6 +17,7 @@ Changelog
 Disabled Windows Antivirus processes
 Also Disabled AVG & Avast processes. I will add the ability disable more antivirus solutions later.
 Disabled Process explorer from running.
+
 0.5.3
 Locked Explorer.exe from running (note, explorer.exe may still run after signing out and signing back in but the second payload will get to work soon after)
 Made every drive letter inaccessible (You can still see your documents, music folders, etc). This feature is implemented because you can still browse the file system via your internet browser (File:///C:\ExampleDir is an example for chrome/chromium based browsers)
