@@ -13,6 +13,9 @@ Note this application is a WIP so features may not work. You also need a host sy
 
 Changelog
 =========
+0.5.6
+Disabled Msiexec.exe from running to prevent uninstallation.
+
 0.5.5
 Integrated Required .dll files into the installer. Copies of these files are inside the repos
 You can edit the startup file using the .sln file (Rickroll folder in repo)!
