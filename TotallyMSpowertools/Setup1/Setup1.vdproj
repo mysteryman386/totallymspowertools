@@ -267,15 +267,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows Power Tools"
-        "ProductCode" = "8:{98F9FEC8-A40A-404D-B44A-059CD846C504}"
-        "PackageCode" = "8:{E228FBF1-9F4A-4F6D-86F5-6F044D937FB1}"
+        "ProductCode" = "8:{F3049388-E712-494C-8B47-5C39B276CD1C}"
+        "PackageCode" = "8:{3429F377-DA90-4136-8B00-59F3D3F37920}"
         "UpgradeCode" = "8:{040442E7-479B-4C78-8074-7CA5D3764011}"
         "AspNetVersion" = "8:1.1.4322.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.5.5"
+        "ProductVersion" = "8:0.5.6"
         "Manufacturer" = "8:Microsoft"
         "ARPHELPTELEPHONE" = "8:1-800-936-4900"
         "ARPHELPLINK" = "8:https://www.support.microsoft.com"
@@ -571,7 +571,7 @@
                                                                     }
                                                                 }
                                                             }
-                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_91305FFA1F334F2E80AA0678B59EE972"
+                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_F92BF829EF4A47D694E7E92EDB16557C"
                                                             {
                                                             "Name" = "8:Explorer"
                                                             "Condition" = "8:"
@@ -671,6 +671,14 @@
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
                                                                             "Value" = "8:procexp64.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_C6052A24C33C4F33BF8392E07D0E842D"
+                                                                            {
+                                                                            "Name" = "8:16"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:msiexec.exe"
                                                                             }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_E147CE3575E84D60864C69F61F563DA5"
                                                                             {
@@ -944,7 +952,7 @@
                                                                             "Condition" = "8:"
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
-                                                                            "Value" = "8:procxp.exe"
+                                                                            "Value" = "8:procexp64.exe"
                                                                             }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_1024D144FA92470884CB8AF6716B59F8"
                                                                             {
@@ -961,6 +969,14 @@
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
                                                                             "Value" = "8:MpCmdRun.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_2151745698CC49999D8A808F4042212F"
+                                                                            {
+                                                                            "Name" = "8:16"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:msiexec.exe"
                                                                             }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_3319358B01FD460F90514949C9759823"
                                                                             {
