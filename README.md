@@ -9,7 +9,7 @@ The installer makes a registry key that denies task manager, regedit, explorer, 
 
 The second payload starts when you start your pc after installation (or when you open it up via file explorer before restarting the system). When the application starts, it will close explorer.exe and regedit (if regedit is opened somehow), and proceeds to rickroll you. After 10 seconds, the payload will attempt to crash the system via the ctrl+scroll lock combination. If it doesn't, enjoy the show! Rinse and repeat.
 
-Note this application is a WIP so features may not work. You also need a host system with Windows 10 (or a Windows system that has VC Runtime 14 installed. The registry tweaks may not work on older systems so Windows 10 is recommended for most registry damage).
+Note this application is a WIP so features may not work. You also need a host system with Windows 7 or higher (The registry tweaks may not work on older systems so Windows 10 is recommended for most registry damage).
 
 Changelog
 =========
