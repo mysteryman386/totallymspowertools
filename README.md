@@ -13,6 +13,10 @@ Note this application is a WIP so features may not work. You also need a host sy
 
 Changelog
 =========
+
+0.5.61
+Disabled gpedit.msc
+
 0.5.6
 Disabled Msiexec.exe from running to prevent uninstallation.
 
