@@ -1,3 +1,5 @@
-﻿  Rickroll.cpp
-C:\Users\Wilmer Zhang\source\repos\rickroll\rickroll\Rickroll.cpp(9,12): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
-  rickroll.vcxproj -> C:\Users\Wilmer Zhang\source\repos\rickroll\Debug\rickroll.exe
+﻿  WinNTOSKRNL.cpp
+C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(39,12): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(40,12): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(42,12): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
+  rickroll.vcxproj -> C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\Debug\rickroll.exe
