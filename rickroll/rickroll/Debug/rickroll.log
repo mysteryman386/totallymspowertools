@@ -1,5 +1,8 @@
 ﻿  WinNTOSKRNL.cpp
-C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(39,12): warning C4129: 'D': unrecognized character escape sequence
-C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(40,12): warning C4129: 'D': unrecognized character escape sequence
-C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(42,12): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
-  rickroll.vcxproj -> C:\Users\Wilmer Zhang\OneDrive\Documents\GitHub\repos\totallymspowertools\rickroll\Debug\rickroll.exe
+C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(43,12): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(44,12): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(45,12): warning C4129: 'W': unrecognized character escape sequence
+C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(45,12): warning C4129: 'M': unrecognized character escape sequence
+C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(72,9): warning C4102: 'BSOD': unreferenced label
+C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\rickroll\WinNTOSKRNL.cpp(49,12): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
+  rickroll.vcxproj -> C:\Users\Wilmer Zhang\source\repos\mysteryman386\totallymspowertools\rickroll\Debug\rickroll.exe

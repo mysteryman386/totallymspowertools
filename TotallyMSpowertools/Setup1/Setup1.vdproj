@@ -15,19 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_6D1DD12F110248EDA3F05B3FBE454D1D"
+        "MsmKey" = "8:_621D865DD38741269EDC03D14CAA1D2E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_69B517F032C2498C851B83B7BF6B8447"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A84604746E074C44A94A55CDCAB7C31D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D8CD41B37175429CA1F76AA208A83F9C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -109,20 +109,6 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_5710551250D14A9188355E593BF964A0"
-            {
-            "Name" = "8:winosntkrnl.exe"
-            "Condition" = "8:"
-            "Object" = "8:_6D1DD12F110248EDA3F05B3FBE454D1D"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_2ADDB15B_B975_417A_894D_F8A8C27F8244"
-            "InstallerClass" = "11:FALSE"
-            "CustomActionData" = "8:"
-            }
         }
         "DefaultFeature"
         {
@@ -138,10 +124,30 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6D1DD12F110248EDA3F05B3FBE454D1D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_621D865DD38741269EDC03D14CAA1D2E"
             {
             "SourcePath" = "8:..\\..\\rickroll\\Debug\\winosntkrnl.exe"
             "TargetName" = "8:winosntkrnl.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69B517F032C2498C851B83B7BF6B8447"
+            {
+            "SourcePath" = "8:..\\..\\Required DLL files\\msvcp140d.dll"
+            "TargetName" = "8:msvcp140d.dll"
             "Tag" = "8:"
             "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Condition" = "8:"
@@ -162,26 +168,6 @@
             {
             "SourcePath" = "8:..\\..\\Required DLL files\\ucrtbased.dll"
             "TargetName" = "8:ucrtbased.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D8CD41B37175429CA1F76AA208A83F9C"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\..\\..\\Downloads\\AI_Suite_III_Setup_3.00.55_DIP5\\DIP5_2.00.16\\AppSetup\\AsusFanCtrlSvc\\msvcp140d.dll"
-            "TargetName" = "8:msvcp140d.dll"
             "Tag" = "8:"
             "Folder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Condition" = "8:"
@@ -307,15 +293,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows Power Tools"
-        "ProductCode" = "8:{F9CE141C-BADB-441E-BC72-6F48FBB7B9F3}"
-        "PackageCode" = "8:{62E6FF45-EE9E-431F-A853-E8A5E0F58A5F}"
+        "ProductCode" = "8:{8D228031-DCDE-4DF8-A4E1-9164F7E034A0}"
+        "PackageCode" = "8:{DED891BF-3AD5-4DFA-802D-0086908AEA8D}"
         "UpgradeCode" = "8:{040442E7-479B-4C78-8074-7CA5D3764011}"
         "AspNetVersion" = "8:1.1.4322.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.5.62"
+        "ProductVersion" = "8:0.5.63"
         "Manufacturer" = "8:Microsoft"
         "ARPHELPTELEPHONE" = "8:1-800-936-4900"
         "ARPHELPLINK" = "8:https://www.support.microsoft.com"
@@ -1212,15 +1198,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6CCC4726646B4B949815AF3F1BCF2AE9"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3B40D0B939B847F0811AA24885BC0538"
             {
-            "Name" = "8:Winosntkrnl"
+            "Name" = "8:winosntkrnl.exe"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_6D1DD12F110248EDA3F05B3FBE454D1D"
+            "Target" = "8:_621D865DD38741269EDC03D14CAA1D2E"
             "Folder" = "8:_1C5B9B95B3944C4E9901BFC5FAD6BAB3"
             "WorkingFolder" = "8:_C865781493CA4388B8276AFEB24042A7"
             "Icon" = "8:"
