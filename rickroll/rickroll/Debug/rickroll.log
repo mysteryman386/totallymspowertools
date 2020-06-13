@@ -1,10 +1,10 @@
 ﻿  WinNTOSKRNL.cpp
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(83,12): warning C4129: 'D': unrecognized character escape sequence
 E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(84,12): warning C4129: 'D': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(85,12): warning C4129: 'D': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(86,12): warning C4129: 'W': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(86,12): warning C4129: 'M': unrecognized character escape sequence
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(85,12): warning C4129: 'W': unrecognized character escape sequence
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(85,12): warning C4129: 'M': unrecognized character escape sequence
 E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(55,16): warning C4930: 'std::string fortwozerointro(void)': prototyped function not called (was a variable definition intended?)
 E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(66,16): warning C4930: 'std::string standardintro(void)': prototyped function not called (was a variable definition intended?)
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(110,16): warning C4930: 'std::string fourtwozero(void)': prototyped function not called (was a variable definition intended?)
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(123,16): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(109,16): warning C4930: 'std::string fourtwozero(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(122,16): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
   rickroll.vcxproj -> E:\Wayne Kurr\totallymspowertools\rickroll\Debug\winosntkrnl.exe

