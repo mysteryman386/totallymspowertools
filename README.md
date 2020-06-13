@@ -14,6 +14,14 @@ Note this application is a WIP so features may not work. You also need a host sy
 Changelog
 =========
 
+0.5.71
+Added a "dumpfile manager" that makes error messages
+cleaned the winosntkrnl sourcecode
+added 420 payload that activates on 420
+
+0.5.63
+Startup payload now deletes shadow backups, and can now play an obnoxious tone via the computer speaker
+
 0.5.61
 Disabled gpedit.msc
 
