@@ -18,11 +18,8 @@ Changelog
 
 0.5.71
 Added a "dumpfile manager" that makes error messages
-
 cleaned the winosntkrnl sourcecode
-
 added 420 payload that activates on 420
-
 The application now hides the console.
 
 0.5.63
