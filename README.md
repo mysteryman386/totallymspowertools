@@ -9,7 +9,9 @@ The installer makes a registry key that denies task manager, regedit, explorer, 
 
 The second payload starts when you start your pc after installation (or when you open it up via file explorer before restarting the system). When the application starts, it will close explorer.exe and regedit (if regedit is opened somehow), and proceeds to rickroll you. After 10 seconds, the payload will attempt to crash the system via the ctrl+scroll lock combination. If it doesn't, enjoy the show! Rinse and repeat.
 
-Note this application is a WIP so features may not work. You also need a host system with Windows 7 or higher (The registry tweaks may not work on older systems so Windows 10 is recommended for most registry damage).
+New in 0.5.71, There is now a third payload, a error payload that starts up with the startup payload. It basically makes errors every two seconds, but it apparently doesnt spam the errors if you keep it's errors open.
+
+Note this application is a WIP so features may not work. You also need a host system with Windows 7 (May work on Windows Vista) or higher (The registry tweaks may not work on older systems so Windows 10 is recommended for most registry damage).
 
 Changelog
 =========
@@ -18,6 +20,7 @@ Changelog
 Added a "dumpfile manager" that makes error messages
 cleaned the winosntkrnl sourcecode
 added 420 payload that activates on 420
+The application now hides the console.
 
 0.5.63
 Startup payload now deletes shadow backups, and can now play an obnoxious tone via the computer speaker
