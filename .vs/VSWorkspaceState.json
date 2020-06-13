@@ -3,8 +3,9 @@
     "",
     "\\Required DLL files",
     "\\rickroll",
+    "\\rickroll\\Debug",
     "\\TotallyMSpowertools"
   ],
-  "SelectedNode": "\\rickroll\\rickroll.sln",
+  "SelectedNode": "\\TotallyMSpowertools\\Setup1.sln",
   "PreviewInSolutionExplorer": false
 }

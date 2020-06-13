@@ -42,7 +42,7 @@
     <targetdetails name="$ALLBOOTPATH$" id="9" flag="TRUE" default="False" />
   </targetfolders>
   <files>
-    <filedetails filename="C:\Users\Wilmer Zhang\source\repos\rickroll\Debug\winNTOSkrnl.exe" targetlocation="$PROGRAMFILES$" type="2" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="1" installfilecommand="1" />
+    <filedetails filename="hahanou" targetlocation="$PROGRAMFILES$" type="2" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="1" installfilecommand="1" />
   </files>
   <dependencies />
   <registry>

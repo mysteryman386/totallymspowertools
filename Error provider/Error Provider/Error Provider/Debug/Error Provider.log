@@ -1,0 +1,9 @@
+﻿  Error provider.cpp
+E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Error Provider\Error provider.cpp(19,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Error Provider\Error provider.cpp(60,17): warning C4551: function call missing argument list
+E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Error Provider\Error provider.cpp(79,17): warning C4551: function call missing argument list
+E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Error Provider\Error provider.cpp(45,24): warning C4930: 'std::string fbierror(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Error Provider\Error provider.cpp(64,24): warning C4930: 'std::string nicepcerror(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Error Provider\Error provider.cpp(82,24): warning C4930: 'std::string ruderalis(void)': prototyped function not called (was a variable definition intended?)
+  LINK : E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Debug\dumpfiles.exe not found or not built by the last incremental link; performing full link
+  Error Provider.vcxproj -> E:\Wayne Kurr\totallymspowertools\Error provider\Error Provider\Debug\dumpfiles.exe
