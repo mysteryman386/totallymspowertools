@@ -1,10 +1,20 @@
 ﻿  WinNTOSKRNL.cpp
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(83,12): warning C4129: 'D': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(84,12): warning C4129: 'D': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(85,12): warning C4129: 'W': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(85,12): warning C4129: 'M': unrecognized character escape sequence
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(55,16): warning C4930: 'std::string fortwozerointro(void)': prototyped function not called (was a variable definition intended?)
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(66,16): warning C4930: 'std::string standardintro(void)': prototyped function not called (was a variable definition intended?)
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(109,16): warning C4930: 'std::string fourtwozero(void)': prototyped function not called (was a variable definition intended?)
-E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(122,16): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(66,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(135,12): warning C4129: 'D': unrecognized character escape sequence
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(136,12): warning C4129: 'D': unrecognized character escape sequence
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(137,12): warning C4129: 'W': unrecognized character escape sequence
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(137,12): warning C4129: 'M': unrecognized character escape sequence
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(336,9): warning C4102: 'fail': unreferenced label
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(46,11): warning C4101: 'write': unreferenced local variable
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(105,16): warning C4930: 'std::string fortwozerointro(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(116,16): warning C4930: 'std::string standardintro(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(163,16): warning C4930: 'std::string fourtwozero(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(177,16): warning C4930: 'std::string DisplayRickError(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(199,24): warning C4930: 'std::string fbierror(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(225,24): warning C4930: 'std::string nicepcerror(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(241,28): warning C4930: 'std::string nicepccrash(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(258,24): warning C4930: 'std::string antivirusisntenough(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(274,28): warning C4930: 'std::string oopsmysystem(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(293,24): warning C4930: 'std::string ruderalis(void)': prototyped function not called (was a variable definition intended?)
+E:\Wayne Kurr\totallymspowertools\rickroll\WinNTOSKRNL.cpp(304,28): warning C4930: 'std::string leoof(void)': prototyped function not called (was a variable definition intended?)
   rickroll.vcxproj -> E:\Wayne Kurr\totallymspowertools\rickroll\Debug\winosntkrnl.exe

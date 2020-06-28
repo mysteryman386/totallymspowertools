@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Error provider",
+    "\\Error provider\\Error Provider",
     "\\Required DLL files",
     "\\rickroll",
     "\\rickroll\\Debug",
     "\\TotallyMSpowertools"
   ],
-  "SelectedNode": "\\TotallyMSpowertools\\Setup1.sln",
+  "SelectedNode": "\\rickroll\\rickroll.sln",
   "PreviewInSolutionExplorer": false
 }

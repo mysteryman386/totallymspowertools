@@ -1,0 +1,2 @@
+cd /d "E:\Wayne Kurr\totallymspowertools\TotallyMSpowertools\Setup1" &msbuild "Setup1.vdproj" /t:sdvViewer /p:configuration="Debug" /p:platform="<N/A>" /p:SolutionDir="E:\Wayne Kurr\totallymspowertools\TotallyMSpowertools" 
+exit %errorlevel% 
